@@ -1,0 +1,19 @@
+.darkPara {
+  color: white;
+}
+.lightpara {
+  color: black;
+}
+.para {
+  color: grey;
+}
+.failureview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failureimg {
+  height: 320px;
+  width: 400px;
+}

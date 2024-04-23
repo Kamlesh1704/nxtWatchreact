@@ -1,0 +1,29 @@
+.listItem {
+  list-style-type: none;
+  padding-left: 40px;
+  width: 100%;
+  margin: 0%;
+}
+.classDark {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: none;
+}
+.classLight {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: none;
+}
+.content {
+  padding-left: 12px;
+}
+.activeClass {
+  background-color: #475569;
+}
+.activeLogo {
+  color: red;
+}

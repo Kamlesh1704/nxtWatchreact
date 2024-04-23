@@ -1,0 +1,93 @@
+.failureview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failureimggg {
+  height: 320px;
+  width: 400px;
+}
+.length{
+  font-size: 24px !important;
+}
+.retry {
+  background-color: #00306e;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+  height: 40px;
+  width: 80px;
+  border: none;
+  margin-top: 30px;
+}
+.para {
+  color: #475569;
+}
+.darkPara {
+  color: white;
+}
+.lightpara {
+  color: black;
+}
+
+.widthh {
+  width: 82%;
+}
+
+.darkTitlee {
+  color: white;
+  font-size: 35px;
+}
+.lightTitlee {
+  color: black;
+  font-size: 35px;
+}
+.darkLogo {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  font-size: 25px;
+  color: red;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.lightLogo {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  font-size: 25px;
+  color: red;
+  background-color: #7e858e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.div-fdd {
+  width: 82%;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.trending-logo {
+  display: flex;
+  align-items: center;
+}
+.total {
+  margin-right: 40px;
+}
+@media screen and (max-width: 576px) {
+  .div-fdd {
+    width: 100vw;
+  }
+  .failureimggg {
+    height: 250px;
+    width: 280px;
+  }
+}

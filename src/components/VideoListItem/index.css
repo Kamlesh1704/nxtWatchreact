@@ -1,0 +1,58 @@
+.item {
+  height: 350px;
+  width: 280px;
+  margin: 20px;
+}
+@media screen and (max-width: 576px) {
+  .item {
+    height: 350px;
+    width: 280px;
+    margin: 0px;
+    font-size: 15px;
+  }
+  .thumbnailll {
+    height: 100px;
+    width: 100px;
+  }
+}
+.thumbnailll {
+  height: 150px;
+  width: 300px;
+}
+.profile-img {
+  height: 45px;
+  width: 45px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+.detail-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.darkTitle {
+  color: white;
+  padding-bottom: 5px;
+}
+.lightTitle {
+  color: black;
+  padding-bottom: 5px;
+}
+.countdiv {
+  display: flex;
+  color: grey;
+}
+.name {
+  color: gray;
+}
+.link {
+  text-decoration: none;
+  border-bottom: none;
+}
+.padding {
+  padding: 9px;
+  margin: 4px;
+}
+.dont {
+  display: none;
+}

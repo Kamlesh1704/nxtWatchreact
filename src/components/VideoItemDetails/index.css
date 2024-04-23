@@ -1,0 +1,106 @@
+.failureview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+.failureimg {
+  height: 250px;
+  width: 300px;
+}
+.profilee {
+  height: 80px;
+  width: 80px;
+}
+.retry {
+  background-color: #00306e;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+  height: 40px;
+  width: 100px;
+  border: none;
+}
+.para {
+  color: #475569;
+  margin: 0px;
+}
+.darkPara {
+  color: white;
+}
+.lightpara {
+  color: black;
+}
+.itemDetailsView {
+  margin: 17px;
+}
+.likedetail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #64748b;
+}
+.views-div {
+  display: flex;
+  align-items: center;
+}
+.like-div {
+  display: flex;
+  align-items: center;
+}
+.likes-div {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 10px;
+  justify-content: space-between;
+  font-size: 18px;
+  border: none;
+  background: none;
+}
+.padding {
+  padding-left: 5px;
+  padding-right: 4px;
+}
+.profileanddetail {
+  display: flex;
+  align-items: center;
+}
+.nameandsubscriber {
+  margin-left: 10px;
+  padding: 0%;
+}
+.des {
+  margin-left: 50px;
+}
+.subs {
+  color: #64748b;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blueColor {
+  color: #2563eb;
+  border: none;
+  background: none;
+}
+.whiteColor {
+  color: #64748b;
+}
+
+@media screen and (max-width: 576px) {
+  .likedetail {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #64748b;
+  }
+  .likes-div {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .des {
+    margin-left: 0px;
+  }
+}

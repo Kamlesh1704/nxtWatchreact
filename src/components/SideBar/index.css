@@ -1,0 +1,14 @@
+.darkDiv {
+  color: white;
+  margin-left: 25px;
+  font-weight: bold;
+}
+.lightDiv {
+  color: black;
+  margin-left: 25px;
+}
+.logo {
+  height: 45px;
+  width: 45px;
+  padding: 5px;
+}

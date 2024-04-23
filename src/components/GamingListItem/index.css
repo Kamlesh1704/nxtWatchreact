@@ -1,0 +1,40 @@
+.darkTitle {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+.lightTitle {
+  color: black;
+  font-size: 20px;
+  margin: 0px;
+}
+.list-itemm {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 30px;
+  margin-bottom: 55px;
+}
+.trending-thumbnailll {
+  width: 200px;
+  height: 240px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.greyy {
+  color: grey;
+  margin: 0px;
+}
+@media screen and (max-width: 576px) {
+  .trending-thumbnailll {
+    width: 130px;
+    height: 200px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .greyy {
+    font-size: 10px;
+  }
+}
