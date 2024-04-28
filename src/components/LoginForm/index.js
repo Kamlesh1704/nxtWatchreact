@@ -76,7 +76,7 @@ class LoginForm extends Component {
           id="username"
           value={username}
           type="text"
-          placeholder="Username"
+          placeholder="rahul"
           className={
             isDarkTheme
               ? 'login-input username-input white-color'
@@ -101,7 +101,7 @@ class LoginForm extends Component {
           id="password"
           value={password}
           type={showPassword}
-          placeholder="Password"
+          placeholder="rahul@2021"
           className={
             isDarkTheme ? 'login-input white-color' : 'login-input dark-color'
           }
